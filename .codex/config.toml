@@ -1,0 +1,11 @@
+# Project-scoped Codex MCP servers. Trust this repository in Codex to load this config.
+[mcp_servers.postgres]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-postgres", "postgresql://streamtube:streamtube@localhost/streamtube"]
+
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 6

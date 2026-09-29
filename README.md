@@ -183,10 +183,16 @@ green-field-ia-project/
 │   ├── tests/                           # E2E (Playwright)
 │   ├── compose.yaml                     # Docker Compose (dev server)
 │   └── Dockerfile.dev
-├── CLAUDE.md                            # Instruções para IA
-├── FC Tube.fig                          # Design system do projeto (Figma)
-├── whiteboard.png                       # Quadro branco do projeto
-└── README.md
+├── CLAUDE.md                              # Original Claude Code instructions
+├── AGENTS.md                              # Codex project instructions
+├── CODEX_PORT.md                          # Claude-to-Codex port map
+├── .agents/                               # Ported skills, references, and rules
+├── .codex/
+│   ├── agents/                         # Project-scoped Codex readers
+│   └── config.toml                    # PostgreSQL and Context7 MCPs
+├── FC Tube.fig                            # Project design system (Figma)
+├── whiteboard.svg                         # Project whiteboard
+└── README.md                             
 ```
 
 ## 📚 Fases do Projeto
